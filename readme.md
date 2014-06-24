@@ -1,7 +1,7 @@
 Hexadecimal Keywords
 ====================
 
-Plugin for [YOURLS](http://yourls.org) 
+Plugin for [YOURLS](http://yourls.org) `Only tested on 1.7`
 
 Description
 -----------
