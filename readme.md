@@ -17,4 +17,3 @@ Installation
 License
 -------
 YOURLS' license, aka *"Do whatever the hell you want with it"*.
-
