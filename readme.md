@@ -5,7 +5,7 @@ Plugin for [YOURLS](http://yourls.org) `Only tested on 1.7`
 
 Description
 -----------
-Changes the sequential keywords from base36 to base16. That's it.
+Changes the sequential keywords from base36 to base16. That's it. In other words, the characters available are 0-9, and a-f, in that order, rolling over at f
 
 Installation
 ------------
