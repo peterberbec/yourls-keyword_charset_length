@@ -8,9 +8,7 @@ Author: plttn
 Author URI: http://plttn.me
 */
 
-yourls_add_filter( 'random_keyword', 'hexadecimal_func' );
-
-function hexadecimal_func( $original_keyword ) {
-    $hexadec_keyword = base_convert($original_keyword, 36, 16);
-    return $hexadec_keyword;
+yourls_add_filter( 'get_shorturl_charset', 'hexadecimal_func' );
+function hexadecimal_func( $in ) {
+    return "0123456789abcdef";
 }
