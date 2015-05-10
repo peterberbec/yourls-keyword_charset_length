@@ -3,7 +3,7 @@
 Plugin Name: Hexadecimal Keywords
 Plugin URI: https://github.com/plttn/yourls-hexdec
 Description: Makes YOURLS use hexadecimal incrementing keyword. Set to base 36.
-Version: 1.0
+Version: 1.1
 Author: plttn
 Author URI: http://plttn.me
 */
