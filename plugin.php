@@ -8,9 +8,9 @@ Author: plttn
 Author URI: http://plttn.me
 */
 
-yourls_add_filter( 'random_keyword', 'plttn_hexdec_convert' );
+yourls_add_filter( 'random_keyword', 'plttn_hexdec_convert' ); //adds filter
 
 function plttn_hexdec_convert( $in ) {
     $out = base_convert($in, 36, 16);
-    return $out;
+    return $out; //returns converted value
 }
