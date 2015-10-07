@@ -9,8 +9,10 @@ Allows a simple override for the charset.  Still uses the sequential incrementin
 
 I like to use the following as it
 
-# SimpleCharSet https://github.com/giveforward/yourls-simplecharset
+```
+## SimpleCharSet https://github.com/giveforward/yourls-simplecharset
 define('YOURLS_GFWD_CHARSET', '23456789bcdfghjkmnprstvwxyz');
+```
 
 ##Installation
 1. In `/user/plugins`, create a new folder named `simplecharset`.
