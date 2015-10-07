@@ -7,7 +7,7 @@ Plugin for [YOURLS](http://yourls.org)
 Allows a simple override for the charset.  Still uses the sequential incrementing
 (ie does not start this out with a fixed lenght ALA https://github.com/YOURLS/random-keywords)
 
-I like to use the following as it
+I like to use the following as it limits words and confusing l or 1
 
 ```
 ## SimpleCharSet https://github.com/giveforward/yourls-simplecharset
