@@ -7,6 +7,10 @@ Plugin for [YOURLS](http://yourls.org)
 Allows a simple override for the charset.  Still uses the sequential incrementing
 (ie does not start this out with a fixed lenght ALA https://github.com/YOURLS/random-keywords)
 
+I like to use the following as it
+
+define('YOURLS_GFWD_CHARSET', '23456789bcdfghjkmnprstvwxyz');
+
 ##Installation
 1. In `/user/plugins`, create a new folder named `simplecharset`.
 2. Drop these files in that directory.
