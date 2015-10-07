@@ -1,16 +1,17 @@
 <?php
 /*
-Plugin Name: Hexadecimal Keywords
-Plugin URI: https://github.com/plttn/yourls-hexdec
-Description: Makes YOURLS use hexadecimal incrementing keyword. Set to base 36.
+Plugin Name: Simple Charset
+Plugin URI: https://github.com/giveforward/yourls-simplecharset
+Description: allows a simple charset override
 Version: 1.1
-Author: plttn
-Author URI: http://plttn.me
+Author: gfwd
+Author URI: http://www.giveforward.com
 */
 
-yourls_add_filter( 'random_keyword', 'plttn_hexdec_convert' ); //adds filter
 
-function plttn_hexdec_convert( $in ) {
-    $out = base_convert($in, 36, 16);
-    return $out; //returns converted value
+yourls_add_filter('get_shorturl_charset', 'gfwd_get_shorturl_charset' );
+
+function gfwd_get_shorturl_charset( $charset )
+{
+    return defined('YOURLS_GFWD_CHARSET') ? YOURLS_GFWD_CHARSET : $charset;
 }
