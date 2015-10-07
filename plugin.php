@@ -13,5 +13,5 @@ yourls_add_filter('get_shorturl_charset', 'gfwd_get_shorturl_charset' );
 
 function gfwd_get_shorturl_charset( $charset )
 {
-    return defined('YOURLS_GFWD_CHARSET') ? YOURLS_GFWD_CHARSET : $charset;
+  return defined('YOURLS_GFWD_CHARSET') ? YOURLS_GFWD_CHARSET : $charset;
 }
