@@ -13,7 +13,7 @@ Link length and character set are user-controlled via an admin interface.
 1. In `/user/plugins`, create a new folder named `simplerandomcharset`.
 2. Drop these files in that directory.
 3. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
-4. Go to the Random Charset administration page ( *eg* http://sho.rt/admin/plugins.php?page=prb_simple_random_charset ) to configure
+4. Go to the Random Charset administration page ( *eg* `http://sho.rt/admin/plugins.php?page=prb_simple_random_charset` ) to configure
 5. Have fun!
 
 ##License
