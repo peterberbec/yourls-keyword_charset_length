@@ -4,7 +4,7 @@
 Plugin for [YOURLS](http://yourls.org)
 
 ##Description
-Allows a simple override for the charset. Does *not* still uses the sequential incrementing
+Allows a simple override for the charset and creates random links. Does *not* still uses the sequential incrementing
 (ie does start this out with a fixed lenght ALA https://github.com/YOURLS/random-keywords). 
 It does not mess with existing links created or custom links, only new randomly generated.
 Link length and character set are user-controlled via an admin interface.
