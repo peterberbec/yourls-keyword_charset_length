@@ -5,12 +5,14 @@ Plugin for [YOURLS](http://yourls.org)
 
 ##Description
 Allows a simple override for the charset. Does *not* still uses the sequential incrementing
-(ie does start this out with a fixed lenght ALA https://github.com/YOURLS/random-keywords)
+(ie does start this out with a fixed lenght ALA https://github.com/YOURLS/random-keywords). 
+It does not mess with existing links created or custom links, only new randomly generated.
 
 I like to use the following as it limits words and confusing l or 1
 
 ```
 /*
+ ** Simple Random Charset
  ** these look similar:         I & l & 1, o & 0, S & 5, Z & 2
  ** so let us remove:           ilosz0125
  */
