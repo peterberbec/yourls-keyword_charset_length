@@ -16,16 +16,10 @@ global $prb_random_keyword;
 */
 /* Length of random keyword */
 $prb_random_keyword['length'] = 5;
-
-/*
- ** these look similar:         I & l & 1, o & 0, S & 5, Z & 2
- ** so let us remove:           ilosz025
- */
-define('YOURLS_PRB_CHARSET', 'abcdefghjkmnpqrtuvwxy346789');
-
 /*
 * DO NOT EDIT FARTHER
 */
+
 // Generate a random keyword
 yourls_add_filter( 'random_keyword', 'prb_random_keyword' );
 function prb_random_keyword() {
