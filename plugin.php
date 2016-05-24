@@ -30,7 +30,7 @@ define('YOURLS_PRB_CHARSET', 'abcdefghjkmnpqrtuvwxy346789');
 yourls_add_filter( 'random_keyword', 'prb_random_keyword' );
 function prb_random_keyword() {
         global $prb_random_keyword;
-        return yourls_rnd_string( $prb_random_keyword['length'], 0, YOURLS_PRB_CHARSET : $charset );
+        return yourls_rnd_string( $prb_random_keyword['length'], 0, YOURLS_PRB_CHARSET );
 }
 // Don't increment sequential keyword tracker
 yourls_add_filter( 'get_next_decimal', 'prb_random_keyword_next_decimal' );
