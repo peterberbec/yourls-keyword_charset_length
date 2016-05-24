@@ -10,20 +10,9 @@ ripped from ozh's random keywork generator, but with a charset limitation.
 */
 
 
-global $prb_random_keyword;
-/*
-* CONFIG: EDIT THIS
-*/
-/* Length of random keyword */
-$prb_random_keyword['length'] = 5;
-/*
-* DO NOT EDIT FARTHER
-*/
-
 // Generate a random keyword
 yourls_add_filter( 'random_keyword', 'prb_random_keyword' );
 function prb_random_keyword() {
-        global $prb_random_keyword;
         return yourls_rnd_string( yourls_get_option( 'link_length' ), 0, yourls_get_option( 'charset_liste' ) );
 }
 // Don't increment sequential keyword tracker
