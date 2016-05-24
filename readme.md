@@ -12,7 +12,7 @@ I like to use the following as it limits words and confusing l or 1
 ```
 /*
  ** these look similar:         I & l & 1, o & 0, S & 5, Z & 2
- ** so let us remove:           ilosz025
+ ** so let us remove:           ilosz0125
  */
 define('YOURLS_PRB_CHARSET', 'abcdefghjkmnpqrtuvwxy346789');
 ```
