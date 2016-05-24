@@ -6,7 +6,7 @@ Description: Assign random keywords to shorturls, like bitly (sho.rt/hJudjK), bu
 Version: 1.0
 Author: PRB
 Author URI: https://github.com/peterberbec
-ripped from ozh's random keywork generator, but with a charset goal.
+ripped from ozh's random keywork generator, but with a charset limitation.
 */
 
 
