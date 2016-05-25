@@ -25,7 +25,7 @@ function prb_random_keyword_next_decimal( $next ) {
 yourls_add_action( 'plugins_loaded', 'prb_simple_random_charset_add_page' );
 
 function prb_simple_random_charset_add_page () {
-    yourls_register_plugin_page( 'prb_simple_random_charset', 'Random Charset', 'prb_simple_random_charset_do_page' );
+    yourls_register_plugin_page( 'key_char_len', 'Random Charset', 'prb_simple_random_charset_do_page' );
 }
 // Display admin page
 function prb_simple_random_charset_do_page () {
