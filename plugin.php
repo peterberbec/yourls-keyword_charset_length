@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: Simple Random Charset
+Plugin Name: Keywords, Charset & Length
 Plugin URI: http://yourls.org/
-Description: Random url keywords, (sho.rt/hJudjK), but uses a limited charset and specify link length with admin page!
-Version: 1.0
+Description: Random url keywords, (sho.rt/hJudjK), custom charset & link length option - now with an admin page!
+Version: 2.0
 Author: Peter Ryan Berbec
 Author URI: https://github.com/peterberbec
-ripped from ozh's random keywork generator, but with a charset limitation.
+ripped from ozh's random keywork generator, and giveforward's simple-charset and LudoBoggio's YourlsBlacklistIPs 
 */
 
 
