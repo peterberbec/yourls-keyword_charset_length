@@ -45,7 +45,7 @@ function prb_charset_form () {
     }
     $link_length_display = yourls_get_option ( 'link_length' );
     echo <<<HTML
-        <h2>Random Charset</h2>
+        <h2>Keywork, Charset & Length</h2>
         <form method="post">
         <input type="hidden" name="nonce" value="$nonce" />
 	<p><label for="charset_form">Random charset contains the following:</label>
