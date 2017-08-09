@@ -55,7 +55,7 @@ function prb_charset_form () {
         <p><input type="submit"></p>
 
 		<p>I suggest you add a charset that does not contain easy to misinterperate characters. WARNING : erroneous entries may create unexpected behaviours, please double-check before validation.</p>
-		<p>Example, these look similar:         I & l & 1, o & 0, S & 5, Z & 2</p>
+		<p>Example, these look similar:         I & l & 1, O & 0, S & 5, Z & 2</p>
 		<p>Recommended charset: abcdefghjkmnpqrtuvwxy346789<br></p>
 		<p>current charset: $liste_charset_display</p>
 		<p>current length: $link_length_display</p>
