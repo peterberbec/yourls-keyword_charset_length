@@ -9,6 +9,8 @@ Author URI: https://github.com/peterberbec
 ripped from ozh's random keywork generator, and giveforward's simple-charset and LudoBoggio's YourlsBlacklistIPs 
 */
 
+// No direct call
+if( !defined( 'YOURLS_ABSPATH' ) ) die();
 
 // Generate a random keyword
 yourls_add_filter( 'random_keyword', 'prb_random_keyword' );
